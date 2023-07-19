@@ -7,8 +7,9 @@
 
 // Task 1: Add code here
 
-function print() {
-  return "Hello World!";
-}
+import print from './external.js';
+
+console.log(print())
+
 // Do not change the code below
 document.querySelector("#test").innerHTML = print();
