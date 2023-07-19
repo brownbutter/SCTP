@@ -12,15 +12,34 @@
 
 // Task 1: Add code here
 
-function addPatient(patientName){
-    // Task 2: Add code here
+let patientsList = [];
+
+function addPatient(array,patientName){
+    array.push(patientName);
 }
+
+// Task 2: Add code here
+let nameA = "John"
+
+addPatient(patientsList,nameA)
+console.log(patientsList)
+
+let nameB = "Mary"
+addPatient(patientsList,nameB)
+console.log(patientsList)
+
+let nameC = "Mark"
+addPatient(patientsList,nameC)
+console.log(patientsList)
+
 
 // Task 3: Add code here
 
+function listPatients(array) {
+  console.log(JSON.stringify(array));
 
-addPatient("John");
-addPatient("Mary");
-addPatient("Mark");
+}
+listPatients(patientsList)
+
 
 listPatient(); // This should list ["John", "Mary", "Mark"]
