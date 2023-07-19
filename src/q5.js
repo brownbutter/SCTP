@@ -9,7 +9,7 @@
 
 import print from './external.js';
 
-print()
+console.log(print())
 
 // Do not change the code below
 document.querySelector("#test").innerHTML = print();
