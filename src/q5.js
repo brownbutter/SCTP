@@ -7,7 +7,7 @@
 
 // Task 1: Add code here
 
-import print from './external.js';
+import print from 'external.js';
 
 console.log(print())
 
