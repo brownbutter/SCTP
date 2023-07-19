@@ -7,7 +7,7 @@
 
 // Task 1: Add code here
 
-import print from './external.js';
+import print from 'src/external.js';
 
 // Do not change the code below
 document.querySelector("#test").innerHTML = print();
